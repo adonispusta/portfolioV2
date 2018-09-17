@@ -1,25 +1,42 @@
 
- #container {
+ #landing {
+	background-image: url("../images/creative.jpg");
 	height: 100vh;
 	width: 100%;
 	box-sizing: border-box;
-	height: 100vh;
-	width: 100%;
 	background-image: center;
 	background-repeat: no-repeat;
  	background-size: cover;
 
 }
 
-.jumbotron {
-   position: relative;
-   top: 170px;
-   left: -50px;
-   background: none;
-   
-   
-    
+.intro {
+	background: rgba(255,255,255,.50);
+	width: 300px;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	left: 50px;
 }
+
+#about {
+	height: 100vh;
+}
+
+#black-top {
+	height: 70px;
+	background-color: black;
+}
+
+#black-side {
+	height: 150px;
+	width: 150px;
+	background-color: black;
+
+}
+
 
 
 
